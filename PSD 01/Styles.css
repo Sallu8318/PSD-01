@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: rgba(153,165,177,0.30);
+}
+/* This is Top 1 left link Navigation Bar */
+.section-a{
+    width: 50%;
+    height: 70px;
+    background-color: black;
+    float: left;
+}
+.nav-a{
+    color: white;
+    padding: 23px 30px;
+    display: inline-block;
+}
+.nav-a a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+/* This is Top 1 Right icon Navigation Bar */
+.section-icon{
+    width: 50%;
+    height: 70px;
+    background-color: black;
+    float: left;
+}
+.nav-icon{
+    color: white;
+    padding: 23px 30px;
+    display: inline-block;
+    margin-left: 70%;
+}
+.nav-icon a i{
+    color: red;
+    background-color: aliceblue;
+}
+/* This is Top 2 Navigation Bar */
+.sec-nav{
+    width: 100%;
+    height: 120px;
+    color: black;
+}
+.sec-nav-a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+/* Style by Name */
+.nobody{
+    width: 50%;
+    height: 150px;
+    float: left;
+    padding: 75px 15px;
+    padding-left: 10px;
+}
+.nobody h1{
+    font-size: 45px;
+}
+.search{
+    width: 47.6%;
+    height: 300px;
+    float: left;
+    position: relative;
+}
+.m-search-box{
+    padding: 22% 32%;
+    float:left;
+}
+.search-box{
+    border-radius: 13px;
+    height: 19px;
+    padding: 5px;
+}
+.search-btn{
+    margin-right: -62px;
+    float: right;
+    margin-top: 0px;
+    background-color: #45f5ff;
+    border-radius: 13px;
+    padding: 5px;
+}
+.img-mhp{
+    width: 100%;
+    height: 472px;
+    float: left;
+    background-image: url(img/new01.jpg);
+    background-repeat: round;
+}
+.img-hp{
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-top: 120px;
+    padding-left: 14px;
+}
+.read-btn{
+    background-color: #45f5ff;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.img{
+    width: 33%;
+    height: 449px;
+    float: left;
+}
+.becteria-one{
+    width: 30%;
+    height: 225px;
+    float: left;
+    text-align: center;
+    padding: 17px;
+}
+.becteria-one i{
+    color: rgba(153,165,177,1);
+}
+.becteria-two{
+    width: 30%;
+    height: 225px;
+    float: left;
+    text-align: center;
+    padding: 17px;
+}
+.becteria-two i{
+    color: rgba(153,165,177,1);
+}
+.becteria-three{
+    width: 30%;
+    height: 190px;
+    float: left;
+    text-align: center;
+}
+.becteria-three i{
+    color: rgba(153,165,177,1);
+}
+.becteria-foure{
+    width: 30%;
+    height: 190px;
+    float: left;
+    text-align: center;
+    margin-left: 45px;
+}
+.becteria-foure i{
+    color: rgba(153,165,177,1);
+}
+.h2-h6{
+    width: 90%;
+    height: 100px;
+    float: left;
+    background-color: rgba(153,165,177,1);
+    margin: 50px;
+    padding-top: 20px;
+    margin-left: 56px;
+    padding-left: 20px;
+    border-left: 7px solid #45f5ff;
+}
+.h2-h6-box{
+    float: right;
+    margin-top: -20px;
+    height: 25px;
+    width: 20%;
+    margin-right: 110px;
+    background-color: #45f5ff;
+    border-radius: 10px;
+    border-color: rgba(153,165,177,1);
+    color: white;
+    padding: 5px;
+}
+footer{
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.about-us{
+    background-color: #45f5ff;
+    float: right;
+}
+.last-blog-btn01{
+    background-color: #45f5ff;
+    float: right;
+}
+.last-blog-btn02{
+    background-color: #45f5ff;
+    float: right;
+}
